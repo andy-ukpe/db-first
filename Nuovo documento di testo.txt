@@ -1,0 +1,15 @@
+create un file di testo in cui immaginate la struttura di una tabella di auto usate, come abbiamo fatto oggi a lezione.
+Inserite quindi i nomi delle colonne, il tipo di dato e gli attributi.
+
+Concessonario di auto usate:
+Marchio, stringa,_VARCHAR(100)_,NOTNULL
+Modello, stringa,_VARCHAR(80)_,NOTNULL
+Colore, stringa,_VARCHAR(50)_,
+cavalli,stringa,_VARCHAR(10)_,
+Immatricolazione(mese anno), stringa, _DATE_,NOTNULL
+Kilometraggio, numero, _ smallint_,NOTNULL
+Cilindrata(4), numero, _ smallint_,
+Classe emissioni, numero, _ tinyint_,NOTNULL
+Targa, stringa,_VARCHAR(9)_,
+Prezzo, numero, FLOAT(9, 2),
+id, numero, int,PRIMARY_KEY, AUTO_INCREMENT, UNIQUE VALUE
